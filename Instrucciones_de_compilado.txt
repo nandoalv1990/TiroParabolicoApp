@@ -1,0 +1,12 @@
+En el directorio /src van todos los archivos .java
+En una terminal:
+
+// Compilar y crear los archivos .class
+javac -d bin src/TiroParabolicoApp.java
+
+// Construir el archivo ejecutable .jar
+jar cfe TiroParabolicoApp.jar TiroParabolicoApp
+
+//Ejecutar desde el terminal
+java -jar TiroParabolicoApp.jar
+
